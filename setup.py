@@ -21,14 +21,14 @@
 
 import os
 import sys
-
 from distutils.errors import CCompilerError
 from distutils.errors import DistutilsExecError
 from distutils.errors import DistutilsPlatformError
 
-from setuptools import setup, Extension
-from setuptools.command.build_ext import build_ext
+from setuptools import Extension
 from setuptools import find_packages
+from setuptools import setup
+from setuptools.command.build_ext import build_ext
 
 
 class optional_build_ext(build_ext):
@@ -100,7 +100,7 @@ long_description = (
         )
 
 setup(name='zope.interface',
-      version='6.2.dev0',
+      version='6.3.dev0',
       url='https://github.com/zopefoundation/zope.interface',
       license='ZPL 2.1',
       description='Interfaces for Python',

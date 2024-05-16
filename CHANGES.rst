@@ -2,8 +2,15 @@
  Changes
 =========
 
-6.4 (unreleased)
+6.5 (unreleased)
 ================
+
+
+6.4 (2024-05-15)
+================
+
+- Adjust for incompatible changes in Python 3.13b1.
+  (`#292 <https://github.com/zopefoundation/zope.interface/issues/292>`)
 
 - Build windows wheels on GHA.
 

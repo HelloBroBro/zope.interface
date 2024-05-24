@@ -5,6 +5,12 @@
 6.5 (unreleased)
 ================
 
+- Nothing changed yet.
+
+
+6.4.post1 (2024-05-23)
+======================
+
 - Publish missing Windows wheels.
   (`#295 <https://github.com/zopefoundation/zope.interface/issues/295>`_)
 

@@ -2,7 +2,20 @@
  Changes
 =========
 
-7.0 (unreleased)
+7.0.2 (unreleased)
+==================
+
+- TBD
+
+
+7.0.1 (2024-08-06)
+==================
+
+- Fix subclassability of ``ObjectSpecificationDescriptor`` (broken in 7.0).
+  (`#312 <https://github.com/zopefoundation/zope.interface/issues/312>`_)
+
+
+7.0 (2024-08-06)
 ================
 
 - Enable heap-based types (PEP 384) for Python >= 3.11.

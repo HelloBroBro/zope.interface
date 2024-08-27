@@ -2,10 +2,15 @@
  Changes
 =========
 
-7.0.2 (unreleased)
+7.0.3 (unreleased)
 ==================
 
-- TBD
+
+7.0.2 (2024-08-26)
+==================
+
+- Fix reference-counting bug in C module initialization (broken in 7.0).
+  (`#316 <https://github.com/zopefoundation/zope.interface/issues/316>`_)
 
 
 7.0.1 (2024-08-06)

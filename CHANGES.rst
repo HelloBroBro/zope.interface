@@ -2,8 +2,15 @@
  Changes
 =========
 
-7.0.3 (unreleased)
+7.0.4 (unreleased)
 ==================
+
+
+7.0.3 (2024-08-27)
+==================
+
+- Fix `Assertion 'memb->type == T_PYSSIZET' failed.` for Python < 3.12.
+  (`#319 <https://github.com/zopefoundation/zope.interface/issues/319>`_)
 
 
 7.0.2 (2024-08-26)
